@@ -2,10 +2,10 @@ package payable;
 
 public class Invoice implements Payable{
 	
-	String part;
-	String description;
-	int count;
-	double price;
+	private String part;
+	private String description;
+	private int count;
+	private double price;
 	
 	public Invoice(String part, String description, int count, double price) {
 		this.part=part;

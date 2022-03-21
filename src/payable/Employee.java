@@ -2,9 +2,9 @@ package payable;
 
 public class Employee implements Payable{
 
-	String firstName;
-	String lastName;
-	String ssn;
+	private String firstName;
+	private String lastName;
+	private String ssn;
 	
 	public String getFirstName() {
 		return firstName;
